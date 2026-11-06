@@ -7,4 +7,4 @@ RUN rm -rf /etc/apt/sources.list.d/* \
 
 WORKDIR /opt
 COPY LucaProxyKurulumLinux.sh /opt/lucaproxy.sh
-RUN chmod +x lucaproxy.sh && ./lucaproxy.sh
+RUN chmod +x lucaproxy.sh
