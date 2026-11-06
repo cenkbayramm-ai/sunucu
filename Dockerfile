@@ -1,6 +1,5 @@
 FROM dorowu/ubuntu-desktop-lxde-vnc:focal
 
-# Eski/bozuk depo linklerini silip, Java'yı öyle kuruyoruz
 RUN rm -rf /etc/apt/sources.list.d/* \
     && apt-get update \
     && apt-get install -y default-jre wget \
